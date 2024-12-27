@@ -1,2 +1,2 @@
 # SqlJobSync-AlwaysOn-AG
-This PowerShell script syncs SQL Server Agent jobs in Always On Availability Groups (AG). It identifies primary and secondary replicas for specified AG Listeners, retrieves agent jobs from the primary replica, and copies them to secondary replicas, ensuring consistent job execution across the AG environment.
+This PowerShell script automates the synchronization of SQL Server Agent jobs across Availability Groups (AG) in a SQL Server Always On environment. The script identifies the primary and secondary replicas of each specified AG Listener, retrieves the agent jobs from the primary replica, and ensures these jobs are copied to the secondary replicas for consistent job execution across the AG setup.
