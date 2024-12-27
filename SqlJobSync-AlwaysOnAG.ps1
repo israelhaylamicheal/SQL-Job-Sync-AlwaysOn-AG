@@ -4,7 +4,7 @@
 $SqlInstances = @(
     "Listener1",
     "Listener2",
-	"Listener3"
+    "Listener3"
 )
 
 # Query to get availability replicas and their roles
